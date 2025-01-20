@@ -62,6 +62,26 @@ To run the system:
 python main.py
 ```
 
+## Output after running main.py
+```bash
+2. **Memory Usage**: Record the total, used, and available memory. Monitoring swap usage can also provide insights into performance bottlenecks.
+
+3. **Disk I/O**: Measure the read/write speeds and the number of I/O operations to understand disk performance and potential delays.
+
+4. **Network Traffic**: Analyze incoming and outgoing bandwidth utilization, packet loss, and latency to identify network issues.
+
+5. **Application Performance Metrics**: Monitor the response time and resource consumption of critical applications.
+
+6. **System Load Average**: Keep track of the load average over different time intervals to assess how busy the system is over time.
+
+7. **Error Rates**: Monitor any errors or exceptions occurring in applications or system processes.
+
+8. **Custom Metrics**: Any other application-specific metrics that may impact performance.
+
+By analyzing these metrics collectively, you can gain a comprehensive view of the system's health and respond proactively to any performance issues.
+```[00m
+```
+
 ## Architecture
 
 The system consists of several key components:
